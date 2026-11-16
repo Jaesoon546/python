@@ -21,19 +21,9 @@ Google Colab에서 작성한 수업 실습 노트북과 과제를 `.py` 코드�
 | [07_class_relation.py](lectures/07_class_relation.py) | 클래스 관계 — 연관·집합·포함, 디자인 패턴 (11/11) |
 | [10_pymysql_sungjuk.py](lectures/10_pymysql_sungjuk.py) | PyMySQL로 MySQL 성적 DB 연동 — 조회·입력·수정·삭제, 프로시저 호출 (11/16) |
 
-## SQL (`sql/`)
+## SQL
 
-HeidiSQL에서 작성한 MySQL 쿼리입니다. `10_pymysql_sungjuk.py`가 이 DB(`jsdb`)의 `student` 테이블과 프로시저를 사용합니다.
-
-| 파일 | 내용 |
-|---|---|
-| [01_person_info_crud.sql](sql/01_person_info_crud.sql) | person_info 테이블 기본 CRUD |
-| [02_school_student_select_join.sql](sql/02_school_student_select_join.sql) | school·student — WHERE/LIKE/IN, 서브쿼리, JOIN, GROUP BY, 변수, CASE/IF 학점 |
-| [03_view_function_procedure_trigger.sql](sql/03_view_function_procedure_trigger.sql) | 뷰, 날짜 함수, 사용자 함수, 프로시저·트리거 호출 |
-| [04_emp_dept_create_tables.sql](sql/04_emp_dept_create_tables.sql) | DEPT·EMP·BONUS·SALGRADE 예제 테이블 생성 + 데이터 |
-| [05_hospital_patient_diagnosis.sql](sql/05_hospital_patient_diagnosis.sql) | 병원·환자·진단 다대다 관계, GROUP_CONCAT |
-| [06_emp_select_groupby_event.sql](sql/06_emp_select_groupby_event.sql) | EMP 조회 문제, 문자열·숫자 함수, GROUP BY/HAVING, 이벤트 스케줄러 |
-| [07_union_backup_trigger.sql](sql/07_union_backup_trigger.sql) | UNION 과목별 통계, 백업 복원, 업데이트 백업 트리거 |
+SQL 실습 쿼리는 [MySQL 저장소](https://github.com/Jaesoon546/MySQL)로 옮겼습니다. `10_pymysql_sungjuk.py`가 그 DB(`jsdb`)의 `student` 테이블과 프로시저를 사용합니다.
 
 ## 과제 (`assignments/`)
 
